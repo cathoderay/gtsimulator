@@ -1,0 +1,625 @@
+!!python/object:model.World
+creatures:
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [1, 0]
+  max_energy: 1000
+  position: [290, 204]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [1, 0]
+  max_energy: 1000
+  position: [460, 93]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, 1]
+  max_energy: 1000
+  position: [664, 145]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, 1]
+  max_energy: 1000
+  position: [521, 272]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, 1]
+  max_energy: 1000
+  position: [444, 102]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, -1]
+  max_energy: 1000
+  position: [292, 440]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [1, 0]
+  max_energy: 1000
+  position: [518, 165]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [-1, 0]
+  max_energy: 1000
+  position: [773, 452]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, -1]
+  max_energy: 1000
+  position: [258, 380]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, 1]
+  max_energy: 1000
+  position: [135, 550]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [-1, 0]
+  max_energy: 1000
+  position: [88, 544]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [-1, 0]
+  max_energy: 1000
+  position: [605, 43]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, 1]
+  max_energy: 1000
+  position: [579, 28]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [0, -1]
+  max_energy: 1000
+  position: [601, 437]
+  size: 4
+- !!python/object:model.Creature
+  color: [0, 255, 0]
+  energy: 1000
+  field: 100
+  last_direction: [-1, 0]
+  max_energy: 1000
+  position: [549, 426]
+  size: 4
+dimension: [800, 600]
+feeds:
+- !!python/object:model.Feed
+  color: &id001 [100, 100, 100]
+  energy: 50
+  position: [359, 299]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [279, 251]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [276, 104]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [406, 149]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [263, 103]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [785, 279]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [135, 245]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [308, 129]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [171, 487]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [715, 547]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [468, 453]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [328, 566]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [198, 596]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [587, 85]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [452, 502]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [32, 238]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [130, 269]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [583, 227]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [698, 197]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [654, 254]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [220, 453]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [761, 350]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [351, 153]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [734, 290]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [660, 284]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [724, 401]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [309, 566]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [665, 499]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [502, 342]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [499, 589]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [150, 530]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [315, 397]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [780, 567]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [133, 339]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [102, 366]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [574, 66]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [456, 448]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [499, 312]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [40, 144]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [419, 412]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [160, 60]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [738, 414]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [236, 201]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [338, 231]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [662, 3]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [627, 198]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [612, 311]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [649, 308]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [770, 273]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [708, 270]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [680, 566]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [164, 124]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [758, 503]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [405, 474]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [408, 448]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [239, 219]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [658, 597]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [651, 491]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [785, 323]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [642, 528]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [704, 206]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [49, 173]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [26, 422]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [399, 335]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [362, 226]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [244, 313]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [798, 202]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [636, 393]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [448, 245]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [487, 406]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [711, 211]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [346, 537]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [312, 471]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [760, 155]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [546, 376]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [598, 478]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [722, 77]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [657, 264]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [645, 511]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [400, 196]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [160, 456]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [401, 253]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [521, 240]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [215, 365]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [713, 22]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [100, 52]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [36, 514]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [71, 341]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [227, 291]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [766, 262]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [111, 34]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [445, 452]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [354, 596]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [66, 277]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [556, 73]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [113, 209]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [258, 345]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [202, 546]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [416, 494]
+  size: 3
+- !!python/object:model.Feed
+  color: *id001
+  energy: 50
+  position: [61, 469]
+  size: 3
+time: 0
